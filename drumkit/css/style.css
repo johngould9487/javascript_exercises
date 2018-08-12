@@ -11,6 +11,11 @@
   padding: 200px 0;
 }
 
+.active {
+  color: #ffe100;
+  transform: scale(1.1);
+}
+
 .drum {
   flex: 1 1 20px;
   display: flex;
@@ -19,13 +24,17 @@
   border: 2px solid black;
   margin: 0 5px;
   box-shadow: 0 0 5px #ccc;
+  transition: all 0.07s;
 }
 
 .drum h2, p {
   flex: 1 1 auto;
-  color: white;
 }
 
 .drum p {
   margin-bottom: 0;
+}
+
+h2, p {
+  color: white;
 }
